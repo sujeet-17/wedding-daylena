@@ -1,0 +1,898 @@
+@font-face
+{
+    src:url('/fonts/Nelhinco\ DEMO\ VERSION.ttf');
+    font-family: nelhinco;
+}
+@font-face
+{
+      src:url('/fonts/charlotte.ttf');
+     font-family: charlo; 
+}
+@font-face
+{
+     src:url('/fonts/Christian\ Sunday\ Italic.otf');
+    font-family: christain;
+}
+@font-face
+{
+    src:url('/fonts/NellaSueDEMO.ttf');
+    font-family: nella;
+}
+@font-face
+{
+    src:url('/fonts/Prestige\ Signature\ Script\ -\ Demo.ttf');
+    font-family: sign;
+}
+@font-face
+{
+    src:url('/fonts/The\ Heart\ Maze\ Demo.ttf');
+    font-family: heart; 
+}    
+@font-face
+{
+    src:url('/fonts/Adine\ Kirnberg.ttf');
+    font-family:adine;
+}
+@font-face
+{
+  src: url('/fonts/Gestae\ Ardentia\ Italic\ DEMO\ VERSION.ttf');
+  font-family: itali;
+}
+@font-face
+{
+  src:url('/fonts/Lieselotte\ -\ Personal\ Use.ttf');
+  font-family: lise;
+}
+.logo
+{
+    height: 150px;
+    width: 100%;
+    /* background-color: rgb(102, 147, 187); */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.font1
+{
+    font-family:nelhinco;
+    font-size: 1.5rem;
+    font-weight:500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+    margin-top: 10px;
+}
+.logo_text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_font1
+{
+    font-family:nelhinco;
+    font-size: 2.5rem;
+    font-weight:500;
+    /* background-color: aliceblue; */
+    color: rgb(90, 26, 26);
+
+}
+.logo_font2
+{
+    font-family:nella;
+    font-size: 2.5rem;
+    font-weight:500;
+    /* background-color: green; */
+    margin-left: -10px;
+    font-style: italic;
+    color:rgb(180, 65, 65);
+}
+.book
+{
+    height: 50px;
+    width: 150px;
+   margin-right: 50px;
+
+}
+.bookme
+{
+    color: aliceblue;
+    font-size: .8rem;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    cursor: pointer;
+    padding: 15px;
+    background-color: black;
+    margin-top:0px;
+    
+}
+.bookme:hover
+{
+    color: gray;
+}
+.share
+{
+    margin-top: 55px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.share>img
+{
+    height: 15px;
+    width: 15px;
+}
+.share>img:hover
+{
+   background-color: grey;
+   border-radius: 50%;
+}
+.nav_page
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+    margin: 0px;
+   
+}
+.nav_size 
+{
+    font-size: 0.75rem;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding: 12px 40px;   
+    letter-spacing: 1.5px;
+    transition:1s;
+    cursor: pointer;
+}
+a:hover
+{
+    color: gray;
+}
+a
+{
+  text-decoration: none;
+  color: black;
+  /* font-size: 0.75rem; */
+}
+.portfolio
+{
+    font-family:nelhinco;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 5rem;
+}
+.threephoto
+{
+    height: 650px;
+    width: 100%;
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.onephoto
+{
+    margin: auto;
+    transition: 0.5s;
+}
+.onephoto:hover
+{
+  translate:0px -15px;
+}
+.twophoto
+{
+    margin: auto;
+    transition: 0.5s;
+}
+.twophoto:hover
+{
+  transform: scale(1.05);
+}
+.threeephoto
+{
+    margin: auto;
+    transition: 0.5s;
+}
+.threeephoto:hover
+{
+  translate:0px -15px;
+}
+.onephoto>img
+{
+    height: 500px;
+    width: 300px;
+    /* background-color: brown; */
+    margin: auto;
+}
+.twophoto>img
+{
+    height: 650px;
+    width: 450px;
+    /* background-color: brown; */
+    margin: auto;
+}
+.threeephoto>img
+{
+    height: 500px;
+    width: 300px;
+    /* background-color: brown; */
+    margin: auto;
+}
+
+.gallerythree
+{
+  height: 750px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+  /* background-color: aqua; */
+  position: relative;
+  top:100px;
+}
+.gallery_three
+{
+  height: 700px;
+  width: 80%;
+  /* border: 1px solid black; */
+  /* border-top: 1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin:none auto;
+}
+.gallery_1
+{
+  height: 600px;
+  width: 350px;
+  /* border: 2px solid grey; */
+  border-right: 2px solid grey;
+  overflow: hidden;
+  margin-left: 50px;
+}
+.gallery_2
+{
+  height: 600px;
+  width: 360px;
+  /* border: 2px solid grey; */
+  border-right: 2px solid grey;
+  overflow: hidden;
+  margin-left: 40px;
+}
+.gallery_2>h1
+{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: -30px;
+}
+.gallery_3
+{
+  height: 600px;
+  width: 400px;
+  /* border: 2px solid black; */
+  /* border: 2px solid grey; */
+  overflow: hidden;
+  margin-left: 50px;
+}
+.gallery_3>h1
+{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: -90px;
+}
+.gallery_1>img
+{
+  height: 400px;
+  width: 300px;
+  /* border: 1px solid black; */
+  margin-left: 10px;
+  transition: 0.4s;
+}
+.gallery_1>img:hover
+{
+  opacity:0.5;
+}
+.gallery_2>img
+{
+  height: 400px;
+  width: 300px;
+  /* border: 1px solid black; */
+  margin-left: 10px;
+  transition:0.4s;
+}
+.gallery_2>img:hover
+{
+  opacity:0.5;
+}
+.gallery_3>img
+{
+  height: 400px;
+  width: 300px;
+  /* border: 1px solid black; */
+ margin-left: 10px;
+ transition: 0.4s;
+}
+.gallery_3>img:hover
+{
+  opacity:0.5;
+}
+h1
+{
+  font-family:  nelhinco;
+  font-size: 3rem;
+  font-weight: 100;
+  margin-left: 50px;
+}
+h2
+{
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 50px;
+  letter-spacing: 3.5px;
+  font-variant: small-caps;
+  margin-top: -20px;
+}
+h3
+{
+  text-align:center;
+  text-decoration: underline;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  transition: 0.8s;
+  cursor: pointer;
+}
+h3:hover
+{
+  color: gray;
+}
+h4
+{
+  text-align: center;
+  margin-left: -100px;
+  font-size: 1rem;
+  text-decoration: underline;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  transition: 0.8s;
+  cursor: pointer;
+}
+h4:hover
+{
+  color: rgb(101, 101, 101);
+}
+.wedding_experince
+{
+  position: relative;
+  left: 450px;
+  font-variant: small-caps;
+  font-size: 1.45rem;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 4px;
+  height: 60px;
+  width: 350px;
+  /* border: 1px solid grey; */
+  background-color: rgb(163, 162, 127);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.8s;
+  cursor: pointer;
+  
+}
+.wedding_experince:hover
+{
+  color: rgb(101, 101, 101);
+}
+.gallery
+{
+    height: 70px;
+    width: 1220px;
+    /* border: 1px solid black; */
+    border-top: 1px solid black;
+    border-bottom: 1px solid black ;
+    text-align: center;
+    font-size: 3rem;
+    /* font-family: 800; */
+    font-style: italic;
+    margin: 70px auto ;
+    overflow: hidden;
+    transition: 2s;
+}
+.gallery:hover
+{
+  height: 6400px;
+  /* overflow: visible; */
+}
+.scroll_photo
+{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 100%;
+  row-gap: 15px;
+  /* background-color: red; */
+  margin-top: 50px;  
+  height: 6400px;
+}
+
+.scroll_photo1>img
+{
+   width: 600px;
+   transition: 1s;
+}
+.scroll_photo1>img:hover
+{
+  transform: scale(1.03);
+}
+.scroll_photo2>img
+{
+   width: 600px;
+   transition: 1s;
+}
+.scroll_photo2>img:hover
+{
+  transform: scale(1.03);
+}
+.footer
+{
+  width: 100%;
+  height: 400px;
+  /* background-color:rgb(240, 240, 240); */
+  background-color:rgb(240, 240, 240);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /* column-gap: -50px; */
+  margin-top: 200px;
+}
+.menu
+{
+  height: 350px;
+  width: 300px;
+  border-right: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photography
+{
+  height: 350px;
+  width: 700px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inquired
+{
+  height: 350px;
+  width: 300px;
+  border-left: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu_box
+{
+   height: 250px;
+   width: 250px;
+   /* border:1px solid black; */
+   text-align: center;
+   border-bottom:1px solid black;
+   border-top:1px solid black;
+}
+.menu_font
+{
+  font-family:  nelhinco;
+  font-size: 2.5rem;
+}
+ol
+{
+  font-family: "Quicksand", sans-serif;
+  list-style: none;
+  font-variant: small-caps;
+  font-size: 1.2rem;
+  margin-left: -35px;
+  cursor: pointer;
+}
+.inquired_box
+{
+  height: 250px;
+  width: 250px;
+  border-bottom:1px solid black;
+  border-top:1px solid black;
+  text-align: center;
+  font-family:  nelhinco;
+  font-size: 2.5rem;
+}
+.photography_box
+{
+  /* height: 250px;
+  width: 450px;
+  border: 1px solid black; */
+  text-align: center;
+  font-family: sign;
+  font-size: 6rem;
+  letter-spacing: 5px;
+}
+.photogrphic
+{
+  font-size: 1.5rem;
+  font-family: "Quicksand", sans-serif;
+  position: relative;
+  top:-25px;
+  font-weight: 600;
+  font-variant: small-caps;
+  letter-spacing: 5px;
+}
+    
+@media (min-width:300px) and (max-width:700px)
+{
+  .logo 
+  {
+     height: 350px;
+     /* background-color: aqua; */
+     display:flex;
+     flex-direction: column;
+  }
+  .font1
+  {
+    font-size:2.3rem ;
+    margin-left: 80px;
+  }
+  .logo_text
+  {
+    margin-left: 100px;
+    margin-top: -80px;
+  }
+  .logo_font1
+  {
+    font-size: 6rem;
+  }
+  .logo_font2
+  {
+    font-size: 5rem;
+  }
+  .book
+  {
+    /* margin-top: -500px; */
+    margin-left: 500px;
+    /* background-color: aqua; */
+    position: relative;
+    top:-120px;
+    left:-125px;
+    width: 250px;
+  
+  }
+  .bookme
+  {
+    margin-left: 25px;
+    /* margin-top: -100px; */
+    /* background-color: aqua; */
+    font-size: 2rem;
+  
+  }
+  .share>img
+  {
+    height: 35px;
+    width: 35px;
+    position: relative;
+    left:40px;
+  }
+  .nav_page
+  {
+    display:flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .nav_size
+  {
+    font-size: 2rem;
+  }
+  a:hover
+  {
+    color: grey;
+  }
+    .onephoto>img
+{
+    height: 450px;
+    width: 250px;
+    /* background-color: brown; */
+    margin: auto;
+}
+.twophoto>img
+{
+    height: 550px;
+    width: 350px;
+    /* background-color: brown; */
+    margin: auto;
+}
+.threeephoto>img
+{
+    height: 450px;
+    width: 250px;
+    /* background-color: brown; */
+    margin: auto;
+}
+.gallerythree
+{
+  height: auto;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  /* background-color: aqua; */
+}
+.gallery_three
+{
+  height: auto;
+  width: 100%;
+  /* border: 1px solid black; */
+  /* border-top: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: blue; */
+  margin-left: -50px;
+  border: none;
+  row-gap: 50px;
+}
+.gallery_1
+{
+  height: 1000px;
+  width: 800px;
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  overflow: hidden;
+  margin-left: 50px;
+}
+.gallery_1>img
+{
+  height: 700px;
+  width: 600px;
+  /* border: 1px solid black; */
+  margin-left: 10px;
+  transition: 0.4s;
+  margin-left: 100px;
+}
+.gallery_1>img:hover
+{
+  opacity:0.5;
+}
+.gallery_2
+{
+  height: 1000px;
+  width: 800px;
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  overflow: hidden;
+  margin-left: 50px;
+}
+.gallery_2>h1
+{
+  margin-left: 20px;
+  font-size: 6rem;
+}
+.gallery_2>img
+{
+  height: 700px;
+  width: 600px;
+  /* border: 1px solid black; */
+  margin-left: 100px;
+  transition:0.4s;
+}
+.gallery_2>img:hover
+{
+  opacity:0.5;
+}
+.gallery_3
+{
+  height: 1000px;
+  width: 800px;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+  overflow: hidden;
+  margin-left: 50px;
+}
+.gallery_3>h1
+{
+  margin-left: 0px;
+  font-size: 6rem;
+}
+.gallery_3>h2
+{
+  margin-left: 120px;
+}
+
+.gallery_3>img
+{
+  height: 700px;
+  width: 600px;
+  /* border: 1px solid black; */
+ margin-left: 100px;
+ transition: 0.4s;
+}
+.gallery_3>img:hover
+{
+  opacity:0.5;
+}
+h1
+{
+  font-family:  nelhinco;
+  font-size: 6rem;
+  font-weight: 100;
+  margin-left: 80px;
+  margin-top: 1px;
+}
+h2
+{
+  font-family: "Quicksand", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-left: 100px;
+  letter-spacing: 3.5px;
+  font-variant: small-caps;
+  margin-top: -70px;
+  margin-left: 170px;
+}
+h3
+{
+  text-align:center;
+  text-decoration: underline;
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  transition: 0.8s;
+  cursor: pointer;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+h3:hover
+{
+  color: gray;
+}
+h4
+{
+  text-align: center;
+  margin-left: -100px;
+  text-decoration: underline;
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  transition: 0.8s;
+  cursor: pointer;
+  margin-left: 40px;
+}
+h4:hover
+{
+  color: rgb(101, 101, 101);
+}
+.wedding_experince
+{
+  margin-left: -800px;
+  margin-top: 100px;
+}.gallery
+{
+    height: 70px;
+    width: 955px;
+    /* border: 1px solid black; */
+    border-top: 1px solid black;
+    border-bottom: 1px solid black ;
+    text-align: center;
+    font-size: 3rem;
+    /* font-family: 800; */
+    font-style: italic;
+    margin: 150px auto ;
+    margin-left: 10px;
+    overflow: hidden;
+    transition: 3s;
+}
+.gallery:hover
+{
+  height: 5400px;
+  /* overflow: visible; */
+}
+.scroll_photo
+{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 100%;
+  /* row-gap: 50px; */
+  /* background-color: red; */
+  margin-top: 50px;  
+  height: 6400px;
+}
+
+.scroll_photo1>img
+{
+   width: 470px;
+   transition: 1s;
+}
+.scroll_photo1>img:hover
+{
+  transform: scale(1.03);
+}
+.scroll_photo2>img
+{
+   width: 470px;
+   transition: 1s;
+}
+.scroll_photo2>img:hover
+{
+  transform: scale(1.03);
+}
+.menu_box
+  {
+    width: 150px;
+    height: 270px;
+        /* background-color:aqua */
+  }
+ 
+  .inquired_box
+  {
+    width: 130px;
+  }
+  .photography_box
+  {
+    border: 1px solid black;
+    position: relative;
+    top:-230px;
+    font-size: 6rem;
+    width: 500px;
+  }
+  .photography
+  {
+
+    height: 100px;
+    /* background-color: aqua; */
+   
+  }
+  .menu
+  {
+    position: relative;
+    left:200px;
+    width: 700px;
+    top:100px;
+    width: 250px;
+  }
+  .inquired
+  {
+    position: relative;
+    left:-200px;
+    width: 700px;
+    top:100px;
+    width: 250px;
+  }
+  ol
+  {
+    font-weight: 900;
+  }
+  .footer
+  {
+    height: 700px;
+    margin-top: -50px;
+   
+  }
+}

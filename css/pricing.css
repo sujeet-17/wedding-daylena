@@ -1,0 +1,651 @@
+@font-face
+{
+    src:url('/fonts/Nelhinco\ DEMO\ VERSION.ttf');
+    font-family: nelhinco;
+}
+@font-face
+{
+      src:url('/fonts/charlotte.ttf');
+     font-family: charlo; 
+}
+@font-face
+{
+     src:url('/fonts/Christian\ Sunday\ Italic.otf');
+    font-family: christain;
+}
+@font-face
+{
+    src:url('/fonts/NellaSueDEMO.ttf');
+    font-family: nella;
+}
+@font-face
+{
+    src:url('/fonts/Prestige\ Signature\ Script\ -\ Demo.ttf');
+    font-family: sign;
+}
+@font-face
+{
+    src:url('/fonts/The\ Heart\ Maze\ Demo.ttf');
+    font-family: heart; 
+}    
+@font-face
+{
+    src:url('/fonts/Adine\ Kirnberg.ttf');
+    font-family:adine;
+}
+@font-face
+{
+  src: url('/fonts/Gestae\ Ardentia\ Italic\ DEMO\ VERSION.ttf');
+  font-family: itali;
+}
+@font-face
+{
+  src:url('/fonts/Lieselotte\ -\ Personal\ Use.ttf');
+  font-family: lise;
+}
+@font-face
+{
+  src:url('/fonts/CalligraphyFLF.ttf');
+  font-family: calligraphy;
+}
+.logo
+{
+    height: 150px;
+    width: 100%;
+    /* background-color: rgb(102, 147, 187); */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.font1
+{
+    font-family:nelhinco;
+    font-size: 1.5rem;
+    font-weight:500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+    margin-top: 10px;
+}
+.logo_text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_font1
+{
+    font-family:nelhinco;
+    font-size: 2.5rem;
+    font-weight:500;
+    /* background-color: aliceblue; */
+    color: rgb(90, 26, 26);
+
+}
+.logo_font2
+{
+    font-family:nella;
+    font-size: 2.5rem;
+    font-weight:500;
+    /* background-color: green; */
+    margin-left: -10px;
+    font-style: italic;
+    color:rgb(180, 65, 65);
+}
+.book
+{
+    height: 50px;
+    width: 150px;
+   margin-right: 50px;
+
+}
+.bookme
+{
+    color: aliceblue;
+    font-size: .8rem;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    cursor: pointer;
+    padding: 15px;
+    background-color: black;
+    margin-top:0px;
+    
+}
+.bookme:hover
+{
+    color: gray;
+}
+.share
+{
+    margin-top: 55px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.share>img
+{
+    height: 15px;
+    width: 15px;
+}
+.share>img:hover
+{
+   background-color: grey;
+   border-radius: 50%;
+}
+.nav_page
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+    margin: 0px;
+   
+}
+.nav_size 
+{
+    font-size: 0.75rem;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding: 12px 40px;   
+    letter-spacing: 1.5px;
+    transition:1s;
+    cursor: pointer;
+}
+a:hover
+{
+    color: gray;
+}
+a
+{
+  text-decoration: none;
+  color: black;
+  /* font-size: 0.75rem; */
+}
+.wedding
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 70%;
+  margin: auto;
+}
+
+.wedding_photo>img
+{
+    height: 700px;
+    width: 500px;
+    margin-top: 70px;
+}
+.wedding_font
+{
+  font-family:nelhinco;
+  font-size: 6rem;
+  font-weight: 550;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+.wedding_heading
+{
+   font-variant: small-caps;
+   font-family:"Quicksand", sans-serif;
+   letter-spacing: 3px;
+   margin-left: 70px;
+}
+.wedding_paragraph
+{
+  font-family: calligraphy;
+  margin-top: 30px;
+  margin-left: 70px;
+  text-align: justify;
+  font-size: 1.7rem;
+}
+.wedding1
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: auto;
+  width: 60%;
+}
+.package
+{
+  font-family:"Quicksand", sans-serif;
+  font-size: .8rem;
+  margin-top: 50px;
+  text-align: center;
+  font-variant: small-caps;
+  letter-spacing: 5px;
+}
+.packagepara
+{
+   margin-top: 30px;
+   font-family: calligraphy;
+   font-size: 1.7rem;
+   word-spacing: 10px;
+   text-align: justify;
+}
+.packageprice
+{
+   display: grid;
+   margin: auto;
+   width: 50%;
+}
+.packageborder
+{
+    height: 500px;
+    width: 800px;
+    border-top: 1px solid black;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.packageborder1
+{
+  height: 450px;
+  width: 350px;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+.packageprice1
+{
+  font-family:nelhinco; 
+  font-size: 1.8rem;
+  /* display: flex;
+  justify-content: center; */
+  margin-bottom: 50px;
+  margin-left: 60px;
+}
+.hours1
+{
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  margin-top: 50px;
+ /* text-align: center; */
+ margin-right: 50px;
+}
+.price1
+{
+  height: 80px;
+  width: 250px;
+  border-bottom: 1px solid black;
+  margin-top: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+
+.packageborder2
+{
+  height: 400px;
+  width: 350px;
+  /* border: 1px solid navy; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+.packageprice2
+{
+  font-family:nelhinco; 
+  font-size: 1.8rem;
+  /* display: flex; */
+  /* justify-content: center; */
+  margin-bottom: -30px;
+  margin-left: 0px;
+}
+.hours2
+{
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  margin-top: 50px;
+ /* text-align: center; */
+ margin-right: 20px;
+}
+.price2
+{
+  height: 80px;
+  width: 250px;
+  border-bottom: 1px solid black;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+.date
+{
+  display: grid;
+  margin: auto;
+  width: 20%;
+  cursor: pointer;
+}
+.inquireyour
+{
+  height: 50px;
+  width: 350px;
+  /* background-color:  rgb(101, 101, 101); */
+  background-color:  rgb(163, 162, 127);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 2%;
+  color: white;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+  transition: 1s;
+}
+.inquireyour:hover
+{
+  color:  rgb(101, 101, 101);  
+}
+.footer
+{
+  width: 100%;
+  height: 400px;
+  /* background-color:rgb(240, 240, 240); */
+  background-color:rgb(240, 240, 240);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /* column-gap: -50px; */
+  margin-top: 200px;
+}
+.menu
+{
+  height: 350px;
+  width: 300px;
+  border-right: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photography
+{
+  height: 350px;
+  width: 700px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inquired
+{
+  height: 350px;
+  width: 300px;
+  border-left: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu_box
+{
+   height: 250px;
+   width: 250px;
+   /* border:1px solid black; */
+   text-align: center;
+   border-bottom:1px solid black;
+   border-top:1px solid black;
+}
+.menu_font
+{
+  font-family:  nelhinco;
+  font-size: 2.5rem;
+}
+ol
+{
+  font-family: "Quicksand", sans-serif;
+  list-style: none;
+  font-variant: small-caps;
+  font-size: 1.2rem;
+  margin-left: -35px;
+  cursor: pointer;
+}
+.inquired_box
+{
+  height: 250px;
+  width: 250px;
+  border-bottom:1px solid black;
+  border-top:1px solid black;
+  text-align: center;
+  font-family:  nelhinco;
+  font-size: 2.5rem;
+}
+.photography_box
+{
+  /* height: 250px;
+  width: 450px;
+  border: 1px solid black; */
+  text-align: center;
+  font-family: sign;
+  font-size: 6rem;
+  letter-spacing: 5px;
+}
+.photogrphic
+{
+  font-size: 1.5rem;
+  font-family: "Quicksand", sans-serif;
+  position: relative;
+  top:-25px;
+  font-weight: 600;
+  font-variant: small-caps;
+  letter-spacing: 5px;
+}
+    
+@media (min-width:300px) and (max-width:700px)
+{
+  .logo 
+  {
+     height: 350px;
+     /* background-color: aqua; */
+     display:flex;
+     flex-direction: column;
+  }
+  .font1
+  {
+    font-size:2.3rem ;
+    margin-left: 80px;
+  }
+  .logo_text
+  {
+    margin-left: 100px;
+    margin-top: -80px;
+  }
+  .logo_font1
+  {
+    font-size: 6rem;
+  }
+  .logo_font2
+  {
+    font-size: 5rem;
+  }
+  .book
+  {
+    /* margin-top: -500px; */
+    margin-left: 500px;
+    /* background-color: aqua; */
+    position: relative;
+    top:-120px;
+    left:-125px;
+    width: 250px;
+  
+  }
+  .bookme
+  {
+    margin-left: 25px;
+    /* margin-top: -100px; */
+    /* background-color: aqua; */
+    font-size: 2rem;
+  
+  }
+  .share>img
+  {
+    height: 35px;
+    width: 35px;
+    position: relative;
+    left:40px;
+  }
+  .nav_page
+  {
+    display:flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .nav_size
+  {
+    font-size: 2rem;
+  }
+  a:hover
+  {
+    color: grey;
+  }
+  .wedding
+  {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .wedding_photo
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wedding_photo>img
+  {
+    width: 700px;
+    height: 1000px;
+  }
+  .wedding_heading
+  {
+    font-size: 2rem;
+  }
+  .wedding_paragraph
+  {
+    font-size: 2rem;
+  }
+  .packageprice
+  {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    width: 80%;
+    /* background-color: blue; */
+  }
+  .packageborder
+  {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    border-bottom:1px solid black ;
+    height: 1000px;
+  }
+  .packageborder1
+  {
+    border: 1px solid black;
+    margin-top: 0px;
+    width: 500px;
+  }
+  .packageborder2
+  {
+    border: 1px solid black;
+    margin-top: 50px;
+    width: 500px;
+  }
+  .packageprice1
+  {
+    font-size: 3rem;
+  }
+  .packageprice2
+  {
+    font-size: 3rem;
+  }
+  .hours1
+  {
+    font-size: 1.8rem;
+    margin-top: 40px;
+  }
+  .hours2
+  {
+    font-size: 1.8rem;
+    margin-top: 40px;
+  }
+  .price1
+  {
+    font-size: 4rem;
+  }
+  .price2
+  {
+    font-size: 4rem;
+  }
+  .date
+  {
+    margin-left: 320px;
+    margin-top: 100px;
+  }
+  .menu_box
+  {
+    width: 150px;
+    height: 270px;
+        /* background-color:aqua */
+  }
+ 
+  .inquired_box
+  {
+    width: 130px;
+  }
+  .photography_box
+  {
+    border: 1px solid black;
+    position: relative;
+    top:-230px;
+    font-size: 6rem;
+    width: 500px;
+  }
+  .photography
+  {
+
+    height: 100px;
+    /* background-color: aqua; */
+   
+  }
+  .menu
+  {
+    position: relative;
+    left:200px;
+    width: 700px;
+    top:100px;
+    width: 250px;
+  }
+  .inquired
+  {
+    position: relative;
+    left:-200px;
+    width: 700px;
+    top:100px;
+    width: 250px;
+  }
+  ol
+  {
+    font-weight: 900;
+  }
+  .footer
+  {
+    height: 700px;
+    margin-top: 50px;
+   
+  }
+}   
