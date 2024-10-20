@@ -497,7 +497,7 @@ ol
   font-variant: small-caps;
   letter-spacing: 5px;
 }
-@media (min-width:300px) and (max-width:700px)
+@media only screen and (max-width: 700px)
 {
   .logo 
   {
